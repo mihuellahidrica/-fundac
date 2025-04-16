@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundacion A & A</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Titan+One&display=swap" rel="stylesheet">
+    
+ 
+</head>
+<!-- Aqui inicia el header-->
+<header style="background-color: rgb(243, 129, 237); padding: 10px 0;">
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: rgb(243, 129, 237);">
+      <!-- LOGO -->
+      <a class="navbar-brand" href="#">
+        <img src="fondo/logo.png" alt="Logo Fundación" style="max-width: 130px;" class="img-fluid">
+      </a>
+
+      <!-- TÍTULO (visible en móviles y escritorio) -->
+      <span class="navbar-text text-white mx-auto d-md-none fw-bold" style="font-size: 1.2rem;">
+        creArte para Amarte
+      </span>
+
+      <!-- BOTÓN HAMBURGUESA -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- MENÚ DE NAVEGACIÓN -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="index.html">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#Inici"></use>
+              </svg>
+              Inicio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="quienessomos.html">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#Quienessomos"></use>
+              </svg>
+              ¿Quiénes Somos?
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="proyectos.html">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#Productos"></use>
+              </svg>
+              Proyectos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="aporte.html">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#Contacto"></use>
+              </svg>
+              Aporta tu ayuda
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contactenos.html">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#Contacto"></use>
+              </svg>
+              Contáctanos
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- TÍTULO EN PANTALLAS GRANDES -->
+    <h2 id="titulo" class="text-white text-center d-none d-md-block mt-2 mb-0" style="font-size: 1.5rem;">
+      creArte para Amarte
+    </h2>
+  </div>
+</header>
+
+ <!-- aqui termina el header -->
+<body>
+ <!-- SECCIÓN DE CONTÁCTANOS -->
+<section class="container contacto-section">
+  <h3 class="text-center mb-4">Contáctanos</h3>
+  <div class="row">
+    <!-- Formulario en una tarjeta -->
+    <div class="col-md-6 mb-4">
+      <div class="card shadow">
+        <div class="card-body">
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="email" placeholder="nombre@ejemplo.com">
+            </div>
+            <div class="mb-3">
+              <label for="mensaje" class="form-label">Mensaje</label>
+              <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Mapa al lado del formulario -->
+    <div class="col-md-6 mb-4">
+      <div class="card shadow h-100">
+        <div class="card-body p-0">
+          <!-- Puedes cambiar la ubicación del mapa modificando el src -->
+          <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.835434507028!2d-122.41941508468267!3d37.77492927975908!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085809c4c18f735%3A0x4c7a6e2026c8206!2sSan%20Francisco%2C%20CA!5e0!3m2!1ses!2sus!4v1618887594721!5m2!1ses!2sus" 
+            width="100%" 
+            height="100%" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy">
+          </iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+
+<!-- Aqui incia el footer-->
+<footer id="pie" class="container py-4" style="background-color: #f8f9fa; color: #333;">
+  <div class="row text-center text-md-left">
+    <!-- Sección de Logo y Frase -->
+    <div class="col-md-4 mb-3">
+      <img src="redes/logo.png" alt="Logo de la fundaciona" width="180" height="80" class="mb-2">
+      <p class="mb-0 font-italic">"Transformando vidas con arte y creatividad."</p>
+    </div>
+    <!-- Sección de Contacto -->
+    <div class="col-md-4 mb-3">
+      <h4 class="mb-3" style="color: #007bff;">Contáctanos</h4>
+      <p class="mb-1"><strong>Correo:</strong> fundaciona.acontacto@gmail.com</p>
+      <p class="mb-1"><strong>Teléfono:</strong> +573138800686</p>
+    </div>
+    <!-- Sección de Redes Sociales -->
+    <div class="col-md-4">
+      <h4 class="mb-3" style="color: #007bff;">Síguenos en redes</h4>
+      <div class="d-flex justify-content-center justify-content-md-start">
+        <a href="https://facebook.com/Fundaci%C3%B3n-A-A-103890508094027/" aria-label="Facebook" class="mx-2">
+          <img src="redes/face.png" alt="Facebook" width="40">
+        </a>
+        <a href="instagram.com/fundaciona_a" aria-label="Instagram" class="mx-2">
+          <img src="redes/insta.png" alt="Instagram" width="40">
+        </a>
+        <a href="https://wa.me/+573042496903?text=Hola,%20estoy%20interesado%20en%20tus%20productos!" target="_blank" aria-label="WhatsApp" class="mx-2">
+          <img src="redes/whap.png" alt="WhatsApp" width="40">
+        </a>
+        <a href="https://www.youtube.com/@fundacionaa4293" aria-label="youtube" class="mx-2">
+          <img src="redes/youtube.png" alt="Instagram" width="40">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="text-center mt-3">
+    <p class="mb-0" style="font-size: 0.9rem;">&copy; 2025 FUNDACION ACTIVIDAD INTEGRAL A TRAVES DEL ARTE  Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+ <!-- aqui termina el footer -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundacion A & A</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Titan+One&display=swap" rel="stylesheet">
+    
+ 
+</head>
+<!-- Aqui inicia el header-->
+<header style="background-color: rgb(243, 129, 237); padding: 10px 0;">
+  <div class="container">
+    <nav class="navbar navbar-expand-md navbar-light" style="background-color: rgb(243, 129, 237);">
+      <!-- LOGO -->
+      <a class="navbar-brand" href="#">
+        <img src="fondo/logo.png" alt="Logo Fundación" style="max-width: 130px;" class="img-fluid">
+      </a>
+
+      <!-- TÍTULO (visible en móviles y escritorio) -->
+      <span class="navbar-text text-white mx-auto d-md-none fw-bold" style="font-size: 1.2rem;">
+        creArte para Amarte
+      </span>
+
+      <!-- BOTÓN HAMBURGUESA -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- MENÚ DE NAVEGACIÓN -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto text-center">
+          <li class="nav-item">
+            <a class="nav-link text-white" href="index.html">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#Inici"></use>
+              </svg>
+              Inicio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="quienessomos.html">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#Quienessomos"></use>
+              </svg>
+              ¿Quiénes Somos?
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="proyectos.html">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#Productos"></use>
+              </svg>
+              Proyectos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="aporte.html">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#Contacto"></use>
+              </svg>
+              Aporta tu ayuda
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="contactenos.html">
+              <svg class="bi d-block mx-auto mb-1" width="24" height="24">
+                <use xlink:href="#Contacto"></use>
+              </svg>
+              Contáctanos
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- TÍTULO EN PANTALLAS GRANDES -->
+    <h2 id="titulo" class="text-white text-center d-none d-md-block mt-2 mb-0" style="font-size: 1.5rem;">
+      creArte para Amarte
+    </h2>
+  </div>
+</header>
+
+ <!-- aqui termina el header -->
+<body>
+ <!--aqui inicia el quienes somos-->
+ <div id="quienessomos" class="container text-center py-5">
+    <div class="row">
+        <div class="col-md-12">
+            <h1 class="mb-4">Quiénes Somos</h1>
+            <br>
+            <br>
+        </div>
+    </div>
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <h2 class="mb-3">FUNDACIÓN ACTIVIDAD INTEGRAL A TRAVÉS DEL ARTE</h2>
+            <p class="text-justify">
+                Somos una <span class="highlight-text">ONG dedicada</span> al fortalecimiento del tejido social a través de las Artes, brindando experiencias de sensibilización, concientización y acción en temas relacionados con el crecimiento integral del ser humano en un contexto social, ambiental y cultural. 
+                Aportamos conocimientos artísticos y estrategias de expresión, sensibilización y emprendimiento a diferentes grupos poblacionales, especialmente <span class="highlight-text">niños, niñas, adolescentes y adultos mayores</span> en situación de vulnerabilidad.
+            </p>
+            <p class="mt-3 fw-bold">Nuestra Filosofía: <span class="highlight-text">El arte como herramienta y estrategia de procesos sociales</span>.</p>
+        </div>
+    </div>
+       <!-- Button trigger modal mision -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #c478e5;">
+    MISÍON
+  </button>
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Nuestra mision</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Generar espacios de formación, de expresión y de socialización de propuestas artísticas y culturales que permitan integrar diferentes profesiones y procesos de sensibilización en temas donde el Arte logra obtener avances y resultados óptimos y precisos, ya que se trata de la exploración de los sentidos   relacionados con la salud, la educación, la publicidad y temas de interés social-
+            Buscamos brindar oportunidades de crecimiento social, artístico, cultural  a diferentes entidades, artistas, y grupos poblacionales que deseen mejorar sus habilidades y destrezas en las artes y que vean en ellas una oportunidad de esparcimiento y libertad de expresión,  los procesos de la fundación A&A están direccionados especialmente a niños, niñas, adolescentes, adultos mayores y docentes de diferentes regiones con inclusión de  las áreas rurales y urbanas y  de difícil acceso, permitiendo así la ubicación de  artistas innatos, empíricos o en proceso de formación, muchos de ellos  de escasos recursos y con diferentes vulnerabilidades, sin importar su contexto ni su condición económica, o en algunos casos su condición física,  con el fin de mitigar impactos negativos que les puedan afectar a estas comunidades, tomando el arte como un sistema de refugio y de expresión. 
+           </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+         <!-- Button trigger modal vision -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="background-color: #c478e5;">
+    VISÍON
+  </button>
+    <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Nuestra Vision</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            Fundación A&A busca crear y desarrollar proyectos sociales a nivel nacional con un enfoque diferencial en Artes, donde se rescate el folclor, las tradiciones culturales, el rescate del patrimonio cultural y el turismo cultural de la región colombiana generando así el reconocimiento de las culturas latino-americanas, el arraigo en las comunidades y la exposición de proyectos para la transformación con contenidos aplicados a las nuevas tendencias desde la industria artística.
+            Se busca que el artista de la fundación A&A tenga un complemento de las diferentes disciplinas con el fin de generar resultados integrales que complementan el arte específico seleccionado.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+   <img src="metas.png" alt="">
+   <br>
+   <br>
+
+   
+
+</body>
+<br>
+<br>
+<!-- Aqui incia el footer-->
+<footer id="pie" class="container py-4" style="background-color: #f8f9fa; color: #333;">
+  <div class="row text-center text-md-left">
+    <!-- Sección de Logo y Frase -->
+    <div class="col-md-4 mb-3">
+      <img src="redes/logo.png" alt="Logo de la fundaciona" width="180" height="80" class="mb-2">
+      <p class="mb-0 font-italic">"Transformando vidas con arte y creatividad."</p>
+    </div>
+    <!-- Sección de Contacto -->
+    <div class="col-md-4 mb-3">
+      <h4 class="mb-3" style="color: #007bff;">Contáctanos</h4>
+      <p class="mb-1"><strong>Correo:</strong> fundaciona.acontacto@gmail.com</p>
+      <p class="mb-1"><strong>Teléfono:</strong> +573138800686</p>
+    </div>
+    <!-- Sección de Redes Sociales -->
+    <div class="col-md-4">
+      <h4 class="mb-3" style="color: #007bff;">Síguenos en redes</h4>
+      <div class="d-flex justify-content-center justify-content-md-start">
+        <a href="https://facebook.com/Fundaci%C3%B3n-A-A-103890508094027/" aria-label="Facebook" class="mx-2">
+          <img src="redes/face.png" alt="Facebook" width="40">
+        </a>
+        <a href="instagram.com/fundaciona_a" aria-label="Instagram" class="mx-2">
+          <img src="redes/insta.png" alt="Instagram" width="40">
+        </a>
+        <a href="https://wa.me/+573042496903?text=Hola,%20estoy%20interesado%20en%20tus%20productos!" target="_blank" aria-label="WhatsApp" class="mx-2">
+          <img src="redes/whap.png" alt="WhatsApp" width="40">
+        </a>
+        <a href="https://www.youtube.com/@fundacionaa4293" aria-label="youtube" class="mx-2">
+          <img src="redes/youtube.png" alt="Instagram" width="40">
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="text-center mt-3">
+    <p class="mb-0" style="font-size: 0.9rem;">&copy; 2025 FUNDACION ACTIVIDAD INTEGRAL A TRAVES DEL ARTE  Todos los derechos reservados.</p>
+  </div>
+</footer>
+
+ <!-- aqui termina el footer -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
